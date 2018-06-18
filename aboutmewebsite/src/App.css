@@ -1,0 +1,28 @@
+body{
+    background-image: url(./images/image.jpg);  
+    background-size: 100%;
+    background-repeat: inherit; 
+}
+h2{
+    text-align: center;
+}
+#two{
+    margin-left: 50px;
+    text-decoration: none;
+}
+#one{
+    margin-left: 100px;
+    text-decoration: none;
+}
+span img {
+    float:right;
+    height: 50px;
+    width:60px;
+}
+#three{
+    margin-right: 100px;
+}
+#four{
+    margin-right: 30px;
+}
+
