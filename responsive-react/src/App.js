@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
-import FirstPage from './components/first';
+import Landingpage from './pages/Landingpage';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
-
+import './animate.css';
 
 class App extends Component {
   render() {
     return (
-      <FirstPage />
+     <Landingpage/>
     );
   }
 }
