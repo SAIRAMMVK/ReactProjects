@@ -16,7 +16,7 @@ export default class Box extends Component{
             <div class="main-container" id="main-con">
                 <Head hInfo={this.props.headInfo}/>
                 <Banner bInfo={this.props.bannerInfo} />
-                <Chart />
+                <Chart cInfo={this.props.chartInfo}/>
                 {this.props.forecast.map(element=>{
                     return(
                     <Tile fInfo={element} />

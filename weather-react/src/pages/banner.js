@@ -4,6 +4,10 @@ import './banner.css';
 export default class Banner extends Component {
     constructor(){
         super();
+        this.getTemperatures=this.getTemperatures.bind(this);
+    }
+    getTemperatures(){
+        console.log(this.props.bInfo.temperature);
     }
     render() {
         return (
@@ -31,7 +35,7 @@ export default class Banner extends Component {
                         </div>
                         <div class="row2">
                             <div class="btn-group">
-                                <button type="button" class="btn btn-primary">Temperature</button>
+                                <button type="button" onClick={this.getTemperatures}  class="btn btn-primary">Temperature</button>
                                 <button type="button" class="btn btn-primary">Pressure</button>
                                 <button type="button" class="btn btn-primary">Wind</button>
                             </div>
